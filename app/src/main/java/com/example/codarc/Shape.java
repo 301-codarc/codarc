@@ -3,6 +3,7 @@ package com.example.codarc;
 public abstract class Shape {
     int x;
     int y;
+
     String color = "red";
 
     public Shape(int x, int y) {
@@ -10,4 +11,5 @@ public abstract class Shape {
         this.y = y;
     }
 }
+
 
